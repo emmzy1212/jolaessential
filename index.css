@@ -1,0 +1,205 @@
+.nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.footer-section4 {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.footer-section4:hover {
+    transform: scale(1.05);
+}
+
+.card-body{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.card-body:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 10px; /* Border radius */
+    padding: 10px 20px; /* Add padding for better appearance */
+     /* Make it an inline-block to fit content */
+    transition: border-color 0.3s ease; /* Add transition effect */
+}
+
+.card-title:hover {
+    border-color: #999; /* Change border color on hover */
+}
+
+.footer-section2{
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-section2:hover {
+    transform: scale(1.05);
+}
+
+
+.footer-section1 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-section1:hover {
+    transform: scale(1.05);
+}
+
+
+.footer-section3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-section3:hover {
+    transform: scale(1.05);
+}
+
+.freshly-arrived {
+    border: 2px solid #333; /* Border color */
+    border-radius: 15px; /* Border radius */
+    padding: 20px; /* Add padding for better appearance */
+    transition: border-color 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.freshly-arrived:hover {
+    border-color: #333;
+}
+
+.freshly-arrived::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.freshly-arrived:hover::before {
+    transform: scale(1);
+}
+
+.btn-ecomm {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-ecomm:hover {
+    transform: translateX(5px);
+}
+
+.brand-grid .item {
+    border-radius: 10px; /* Border radius */
+    overflow: hidden; /* Ensure images don't overflow */
+    transition: transform 0.3s ease; /* Add animation transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.brand-grid .item:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+}
+
+.brand-grid .item img {
+    width: 100%;
+    height: auto;
+}
+
+.brand-grid .item {
+    border: 2px solid transparent; /* Initial transparent border */
+}
+
+.brand-grid .item:hover {
+    border-color: #333; /* Change border color on hover */
+}
+
+.product-grid {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 15px; /* Border radius */
+    overflow: hidden; /* Hide overflow content */
+    transition: border-color 0.3s ease; /* Add transition effect */
+}
+
+.product-grid:hover {
+    border-color: #999; /* Change border color on hover */
+}
+
+
+.add-banner {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 15px; /* Border radius */
+    overflow: hidden; /* Hide overflow content */
+    transition: border-color 0.3s ease; /* Add transition effect */
+}
+
+.add-banner:hover {
+    border-color: #999; /* Change border color on hover */
+}
+
+.fresh-arrivals {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* To ensure the border radius works correctly */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.fresh-arrivals:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+.fresh-arrivals .btn {
+    transition: all 0.3s ease; /* Apply the transition to the button */
+}
+
+.fresh-arrivals:hover .btn {
+    background-color: #007bff; /* Change button background color on hover */
+    color: #fff; /* Change button text color on hover */
+}
+
+
+
+.discount-alert {
+    background-color: #1a1a1a; /* Dark background color */
+    border-bottom: 2px solid #ffffff; /* White border bottom */
+    border-radius: 10px; /* Border radius */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition animation */
+}
+
+.discount-alert:hover {
+    background-color: #000000; /* Darker background color on hover */
+
+}
+
+.discount-alert .alert {
+    border: none; /* Remove default alert border */
+}
+
+.discount-alert .btn-close {
+    transition: transform 0.3s ease; /* Button close transition */
+}
+
+.discount-alert .btn-close:hover {
+    transform: rotate(90deg); /* Rotate button on hover */
+}
+
+.copyright-section {
+    background-color: #f1f1f1; /* Background color */
+    padding: 10px 0; /* Add padding for spacing */
+    transition: background-color 0.3s ease; /* Transition animation */
+}
+
+.copyright-section:hover {
+    background-color: #e0e0e0; /* Darker background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow on hover */
+}
